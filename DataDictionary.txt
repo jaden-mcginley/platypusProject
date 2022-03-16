@@ -1,0 +1,7 @@
+Data Dictionary:
+        string name;
+        short int age; //months
+        char gender; //m/f
+        float weight; //pounds
+        bool alive;
+        bool mutant;

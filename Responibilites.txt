@@ -1,0 +1,7 @@
+Driver File:
+
+.h File:
+
+.cpp File:
+
+Jaden will be responsible for coding the .h file, as well as "assisting" in writing the .cpp file. He also "assisted" in writing the driver file.

@@ -1,0 +1,29 @@
+        //constructors
+        Platypus();
+        Platypus(std::string Name, short int Age, char Gender, float Weight, bool Alive = true, bool Mutant = false);
+        static Platypus initiate_Birth();
+
+        //destructors
+        ~Platypus();
+
+        //mutators
+        void set_Name(std::string Name);
+        void set_Age(short int Age);
+        void set_Gender(char Gender);
+        void set_Weight(float Weight);
+        void set_Alive(bool Alive);
+        void set_Mutant(bool Mutant);
+
+        //accessors
+        std::string get_Name();
+        short int get_Age();
+        char get_Gender();
+        float get_Weight();
+        bool get_Alive();
+        bool get_Mutant();
+
+        //others
+        void print_Information();
+        void increment_Age();
+        void increment_Weight();
+        void initiate_Fight(Platypus victim);
